@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 2
+  domain: mybluemix.net
+  name: watsonTest01-mqh
+  host: watsonTest01-mqh
+  disk_quota: 1024M
+  services:
+  - mqhchat01-cloudantNoSQLDB
